@@ -8,7 +8,7 @@ export const WebsiteDesign = () => {
   return (
     <div className="relative">
       <div className="absolute top-0 left-0  mx-5 text-4xl font-bold my-40 space-y-4  ">
-        <h1 onClick={() => setbrand(!brand)}>Website Design & Development</h1>
+        <h1 className="text-white  " onClick={() => setbrand(!brand)}>Website Design & Development</h1>
 
         <h1 onClick={() => setbrand2(!brand2)}>Branding</h1>
 
@@ -40,7 +40,7 @@ export const WebsiteDesign = () => {
 
       {brand3 && (
         <img
-          className="absolute top-0 right-0 my-80 mx-6 w-1/2 "
+          className="absolute top-0 right-0 my-80 mx-6  w-1/2 "
           src="https://cdn.discordapp.com/attachments/1001168177952211054/1076370803056197652/websites_1.webp"
           alt=""
         />

@@ -46,6 +46,8 @@ export const KotaHome = () => {
       </div>
       <div>
         <StartYourpProject />
+
+        
       </div>
 
     </div>
